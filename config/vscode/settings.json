@@ -1,0 +1,63 @@
+{
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+    "glassit.alpha": 240,
+    "workbench.editor.tabSizing": "fixed",
+    "workbench.editor.tabSizingFixedMaxWidth": 180,
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
+    "editor.dragAndDrop": false,
+    "git.confirmSync": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.lineNumbers": "relative",
+    "editor.renderWhitespace": "trailing",
+    "editor.fontFamily": "\"JetBrains Mono NL Light\"",
+    "editor.fontSize": 17,
+    "terminal.integrated.fontFamily": "\"JetBrainsMonoNL Nerd Font Medium\"",
+    "terminal.integrated.fontSize": 15,
+    "workbench.colorCustomizations": {
+        "terminal.background": "#1d0022"
+    },
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "vscode-neovim.useWSL": true,
+    "vscode-neovim.wslDistribution": "Ubuntu-24.04",
+    "vscode-neovim.neovimExecutablePaths.linux": "/home/linuxbrew/.linuxbrew/bin/nvim",
+    "vscode-neovim.neovimInitVimPaths.linux": "~/dotfiles/.config/nvim/init.lua",
+    "vscode-neovim.compositeKeys": {
+        "jk": {
+            "command": "vscode-neovim.escape",
+        },
+    },
+    "vscode-neovim.compositeTimeout": 100,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "basedpyright.analysis.diagnosticMode": "workspace",
+    "basedpyright.analysis.inlayHints.genericTypes": true,
+    "files.exclude": {
+        ".tmp": true,
+        ".coverage": true,
+        ".pytest_cache": true,
+        ".venv": true,
+        "**.egg-info": true,
+        "**/__pycache__": true,
+        "uv.lock": true
+    },
+    "files.associations": {
+        "*.toml": "ini",
+        ".cursorrules": "markdown"
+    },
+    "workbench.activityBar.location": "top",
+    "git.openRepositoryInParentFolders": "always",
+    "workbench.startupEditor": "none",
+    "workbench.remoteIndicator.showExtensionRecommendations": false,
+    "extensions.ignoreRecommendations": true,
+    "github.copilot.chat.agent.thinkingTool": true,
+    "github.copilot.chat.localeOverride": "ja",
+}

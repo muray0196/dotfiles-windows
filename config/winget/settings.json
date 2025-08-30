@@ -1,0 +1,31 @@
+{
+  "$schema": "https://aka.ms/winget-settings.schema.json",
+
+  "source": { "autoUpdateIntervalInMinutes": 60 },
+
+  "visual": {
+    "progressBar": "accent",
+    "anonymizeDisplayedPaths": true
+  },
+
+  "logging": { "level": "info" },
+
+  "installBehavior": {
+    "disableInstallNotes": true,
+    "preferences": {
+      "scope": "user",
+      "architectures": ["x64"],
+      "installerTypes": ["msi","msix"],
+      "locale": ["ja-JP","en-US"]
+    }
+  },
+
+  "uninstallBehavior": { "purgePortablePackage": true },
+
+  "network": {
+    // DOが不安定なら "wininet" に切替
+    "downloader": "do"
+  },
+
+  "telemetry": { "disable": true }
+}
