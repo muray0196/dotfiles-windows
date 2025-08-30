@@ -19,7 +19,7 @@ function audio-dl {
     $params = @(
         '-P', "$HOME\Downloads",
         '-f', 'bestaudio[acodec=opus]/bestaudio',
-		    '--remux-video', 'webm>opus/mp4>m4a',
+		'--remux-video', 'webm>opus/mp4>m4a',
         '--downloader', 'aria2c',
         '--downloader', 'm3u8,dash:aria2c',
         '--downloader-args', 'aria2c:-c -x 8 -s 8 -k 1M --file-allocation=none',

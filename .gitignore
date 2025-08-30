@@ -1,1 +1,7 @@
+# foobar2000
+foo_audioscrobbler.dll.cfg
+foo_out_asio.dll.cfg
+foo_scrobble.dll.cfg
+
+# mpv
 persistent_config.json

@@ -15,7 +15,7 @@
         <Replace name=")" />
         <Replace name="(" />
     </FindHistory>
-    <History nbMaxFile="0" inSubMenu="no" customLength="-1" />
+    <History nbMaxFile="11" inSubMenu="no" customLength="-1" />
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
         <ProjectPanel id="1" workSpaceFile="" />
@@ -32,7 +32,7 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="no" size="4" backspaceUnindent="no" />
-        <GUIConfig name="AppPosition" x="159" y="295" width="996" height="746" isMaximized="no" />
+        <GUIConfig name="AppPosition" x="20" y="0" width="996" height="746" isMaximized="no" />
         <GUIConfig name="FindWindowPosition" left="459" top="1004" right="1092" bottom="1364" isLessModeOn="no" />
         <GUIConfig name="FinderConfig" wrappedLines="no" purgeBeforeEverySearch="no" showOnlyOneEntryPerFoundLine="yes" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20080426" autoUpdateMode="0">yes</GUIConfig>
