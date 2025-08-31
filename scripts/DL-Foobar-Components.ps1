@@ -3,6 +3,7 @@ $ErrorActionPreference = 'Stop'
 $dest = "$HOME\Downloads\fb2k-components"
 
 New-Item -ItemType Directory -Force -Path $dest | Out-Null
+Write-Host "Download dir: $dest`n"
 
 function Get-Fb2kDownloadUrl {
     param([string]$PageUrl)
@@ -42,17 +43,17 @@ function Get-HyvDownloadUrl {
 }
 
 $targets = @(
- # SoX resampler（Caseリビルド配布）
+ # SoX resampler
  @{ name='foo_dsp_resampler'; page='https://foobar.hyv.fi/?view=foo_dsp_resampler'; getter='hyv' },
  # OpenLyrics
  @{ name='foo_openlyrics';   page='https://www.foobar2000.org/components/view/foo_openlyrics';   getter='fb2k' },
- # ASIO 出力
+ # ASIO出力
  @{ name='foo_out_asio';     page='https://www.foobar2000.org/components/view/foo_out_asio';     getter='fb2k' },
  # Last.fm Scrobble
  @{ name='foo_scrobble';     page='https://www.foobar2000.org/components/view/foo_scrobble';     getter='fb2k' },
- # Columns UI（安定版 3.0.1 を指名。最新アルファが欲しければ page を安定→最新に差し替え）
+ # Columns UI
  @{ name='foo_ui_columns';   page='https://www.foobar2000.org/components/view/foo_ui_columns'; getter='fb2k' },
- # Album list panel（Columns UI 用）
+ # Album list panel
  @{ name='foo_uie_albumlist';page='https://www.foobar2000.org/components/view/foo_uie_albumlist'; getter='fb2k' }
 )
 
@@ -63,6 +64,3 @@ foreach ($t in $targets) {
     Write-Host "↓ $($t.name)`n$url"
     Invoke-WebRequest -Uri $url -OutFile $out
 }
-このコードで無事に動いた。改善として、ダウンロードしたパスを表示するように
-
-様々な顧客サービスを用意

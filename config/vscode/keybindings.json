@@ -25,12 +25,4 @@
         "command": "-vscode-neovim.send",
         "when": "editorTextFocus && neovim.ctrlKeysNormal.j && neovim.init && neovim.mode != 'insert' && editorLangId not in 'neovim.editorLangIdExclusions'"
     },
-    {
-        "key": "ctrl+i",
-        "command": "composerMode.agent"
-    },
-    {
-        "key": "ctrl+e",
-        "command": "composerMode.background"
-    },
 ]

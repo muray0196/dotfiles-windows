@@ -127,7 +127,7 @@ function New-SymlinkSafe {
     return
   }
 
-  # 既存で同一ターゲットならスキップ（わかりやすく表示）
+  # 既存で同一ターゲットならスキップ
   if (Test-Path -LiteralPath $Link) {
     try {
       $existing = Get-Item -LiteralPath $Link -Force
@@ -137,7 +137,7 @@ function New-SymlinkSafe {
         try { $existingTarget = $existing.Target } catch { $existingTarget = $null }
       }
       if ($existingTarget) {
-        # Normalize for比較（既存ターゲットが欠落していても落ちない）
+        # Normalize for比較
         $t1 = Normalize-PathSafe -Path $Target
         $t2 = Normalize-PathSafe -Path $existingTarget
         if ($t1 -eq $t2) {
@@ -148,7 +148,7 @@ function New-SymlinkSafe {
         }
       }
     } catch {
-      # 取得に失敗した場合は通常処理（作り直し）
+      # 取得に失敗した場合は通常処理
     }
   }
 
@@ -162,7 +162,7 @@ function New-SymlinkSafe {
   $script:Created += [pscustomobject]@{ App=$App; Item=$Item; Link=$Link; Target=$Target }
 }
 
-# --- Special folders (予約名は上書きしない) -----------------------------------
+# --- Special folders -----------------------------------
 $UserHome     = $env:USERPROFILE
 $Documents    = [Environment]::GetFolderPath('MyDocuments')
 $AppData      = $env:APPDATA
@@ -189,7 +189,7 @@ $links = @(
   @{ App='Notepad++'; Item='config'; Link = Join-Path $persist 'notepadplusplus'; Target = Join-Path $config 'npp' }
 
   # PowerShell Profile
-  @{ App='PowerShell'; Item='Profile'; Link = Join-Path $Documents 'PowerShell'; Target = Join-Path $config 'powershell' }
+  @{ App='PowerShell'; Item='Profile'; Link = Join-Path $Documents 'PowerShell\Microsoft.PowerShell_profile.ps1'; Target = Join-Path $config 'powershell\Microsoft.PowerShell_profile.ps1' }
 
   # VS Code
   @{ App='VS Code'; Item='keybindings.json'; Link = Join-Path $AppData 'Code\User\keybindings.json'; Target = Join-Path $config 'vscode\keybindings.json' }

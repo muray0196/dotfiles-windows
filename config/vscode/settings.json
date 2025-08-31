@@ -15,7 +15,8 @@
     "terminal.integrated.fontFamily": "\"JetBrainsMonoNL Nerd Font Medium\"",
     "terminal.integrated.fontSize": 15,
     "workbench.colorCustomizations": {
-        "terminal.background": "#1d0022"
+        "terminal.background": "#0a0a0a",
+        // "terminal.background": "#1d0022"
     },
     "terminal.integrated.defaultProfile.linux": "zsh",
     "vscode-neovim.useWSL": true,
