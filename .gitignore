@@ -5,3 +5,13 @@ foo_scrobble.dll.cfg
 
 # mpv
 persistent_config.json
+
+# notepad++
+config/npp/userDefineLangs/
+config/npp/backup/
+config/npp/cloud/
+config/npp/stylers.xml
+config/npp/userDefineLang.xml
+config/npp/shortcuts.xml
+config/npp/session.xml
+config/npp/nativeLang.xml

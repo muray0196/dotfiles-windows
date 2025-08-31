@@ -2,6 +2,7 @@
 <NotepadPlus>
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" dlgAlwaysVisible="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no" isSearch2ButtonsMode="no" fifProjectPanel1="no" fifProjectPanel2="no" fifProjectPanel3="no" regexBackward4PowerUser="no" bookmarkLine="no" purge="no">
         <Filter name="" />
+        <Find name="scoopApps" />
         <Find name="enabled=0" />
         <Find name="enabled" />
         <Find name="reface" />
@@ -11,11 +12,10 @@
         <Find name="mouse" />
         <Find name="1.5" />
         <Find name="bizin" />
-        <Find name=".sh" />
         <Replace name=")" />
         <Replace name="(" />
     </FindHistory>
-    <History nbMaxFile="11" inSubMenu="no" customLength="-1" />
+    <History nbMaxFile="0" inSubMenu="no" customLength="-1" />
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
         <ProjectPanel id="1" workSpaceFile="" />
@@ -32,7 +32,7 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="no" size="4" backspaceUnindent="no" />
-        <GUIConfig name="AppPosition" x="20" y="0" width="996" height="746" isMaximized="no" />
+        <GUIConfig name="AppPosition" x="814" y="64" width="996" height="746" isMaximized="no" />
         <GUIConfig name="FindWindowPosition" left="459" top="1004" right="1092" bottom="1364" isLessModeOn="no" />
         <GUIConfig name="FinderConfig" wrappedLines="no" purgeBeforeEverySearch="no" showOnlyOneEntryPerFoundLine="yes" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20080426" autoUpdateMode="0">yes</GUIConfig>
