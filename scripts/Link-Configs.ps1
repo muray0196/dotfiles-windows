@@ -195,6 +195,10 @@ $links = @(
   @{ App='VS Code'; Item='keybindings.json'; Link = Join-Path $AppData 'Code\User\keybindings.json'; Target = Join-Path $config 'vscode\keybindings.json' }
   @{ App='VS Code'; Item='settings.json';    Link = Join-Path $AppData 'Code\User\settings.json';    Target = Join-Path $config 'vscode\settings.json'    }
 
+  # Neovim
+  @{ App='Neovim'; Item='init'; Link = Join-Path $LocalAppData 'nvim\init.lua'; Target = Join-Path $config 'nvim\init.lua' }
+  @{ App='Neovim'; Item='config';    Link = Join-Path $LocalAppData 'nvim\lua';    Target = Join-Path $config 'nvim\lua'    }
+
   # winget settings
   @{ App='winget'; Item='settings.json'; Link = Join-Path $LocalAppData 'Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\settings.json'
      Target = Join-Path $config 'winget\settings.json' }

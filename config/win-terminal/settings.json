@@ -30,12 +30,14 @@
         }
     ],
     "alwaysShowTabs": true,
-    "compatibility.allowHeadless": true,
+    "compatibility.allowHeadless": false,
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "disableAnimations": true,
     "firstWindowPreference": "defaultProfile",
+    "initialCols": 120,
+    "initialRows": 40,
     "keybindings": 
     [
         {
@@ -69,11 +71,12 @@
             "bellStyle": "none",
             "font": 
             {
-                "face": "JetBrainsMonoNL Nerd Font",
-                "size": 13,
+                "face": "BIZUDev-NF",
+                "size": 17,
                 "weight": "medium"
             },
             "opacity": 90,
+            "padding": "0",
             "useAcrylic": false
         },
         "list": 
@@ -102,6 +105,11 @@
             {
                 "antialiasingMode": "cleartype",
                 "colorScheme": "Pengwin",
+                "font": 
+                {
+                    "face": "JetBrainsMonoNL Nerd Font",
+                    "size": 13
+                },
                 "guid": "{d8e96812-b789-5068-a5ae-10b2fb53e95f}",
                 "hidden": false,
                 "name": "Ubuntu 24.04.1 LTS",
@@ -113,8 +121,18 @@
             },
             {
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "hidden": false,
+                "hidden": true,
                 "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "C:\\Users\\muray\\scoop\\apps\\neovim\\current\\bin\\nvim.exe",
+                "experimental.retroTerminalEffect": false,
+                "guid": "{0f3d6fb1-52ab-4486-b32d-da69692cdcb9}",
+                "hidden": true,
+                "icon": null,
+                "name": "neovim",
+                "scrollbarState": "hidden",
+                "tabTitle": "Neovim"
             }
         ]
     },

@@ -12,14 +12,12 @@
     "editor.renderWhitespace": "trailing",
     "editor.fontFamily": "\"JetBrains Mono NL Light\"",
     "editor.fontSize": 17,
-    "terminal.integrated.fontFamily": "\"JetBrainsMonoNL Nerd Font Medium\"",
-    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.fontFamily": "\"BIZUDEV-NF\", \"JetBrainsMonoNL Nerd Font Medium\"",
+    "terminal.integrated.fontSize": 19,
     "workbench.colorCustomizations": {
         "terminal.background": "#0a0a0a",
-        // "terminal.background": "#1d0022"
     },
     "terminal.integrated.defaultProfile.linux": "zsh",
-    "vscode-neovim.useWSL": true,
     "vscode-neovim.wslDistribution": "Ubuntu-24.04",
     "vscode-neovim.neovimExecutablePaths.linux": "/home/linuxbrew/.linuxbrew/bin/nvim",
     "vscode-neovim.neovimInitVimPaths.linux": "~/dotfiles/.config/nvim/init.lua",
@@ -52,13 +50,19 @@
     },
     "files.associations": {
         "*.toml": "ini",
-        ".cursorrules": "markdown"
     },
-    "workbench.activityBar.location": "top",
     "git.openRepositoryInParentFolders": "always",
     "workbench.startupEditor": "none",
     "workbench.remoteIndicator.showExtensionRecommendations": false,
     "extensions.ignoreRecommendations": true,
     "github.copilot.chat.agent.thinkingTool": true,
     "github.copilot.chat.localeOverride": "ja",
+    "workbench.activityBar.location": "top",
+    "chatgpt.openOnStartup": true,
+    "vscode-neovim.useWSL": true,
+    "workbench.tips.enabled": false,
+    "terminal.integrated.enablePersistentSessions": false,
+    "terminal.integrated.initialHint": false,
+    "editor.inlayHints.enabled": "off",
+    "accessibility.verbosity.emptyEditorHint": false,
 }

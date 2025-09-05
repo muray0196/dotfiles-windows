@@ -2,9 +2,6 @@
 #SingleInstance Force
 SendMode "Input"
 
-m::m
-esc::esc
-
 excluded := ["hoge.exe", "hoge2.exe"]
 
 IsExcluded(){
