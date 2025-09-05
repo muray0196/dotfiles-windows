@@ -3,3 +3,6 @@
 -- Add any additional options here
 vim.g.snacks_animate = false
 vim.opt.swapfile = false
+vim.opt.wrap = true
+vim.opt.linebreak = true
+vim.opt.breakindent = true

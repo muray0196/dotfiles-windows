@@ -3,6 +3,7 @@
 [CmdletBinding(PositionalBinding=$false)]
 param(
   [string]$ConfigRoot = "$HOME\dotfiles-windows\config",
+  [string]$ScriptsRoot = "$HOME\dotfiles-windows\scripts",
   [string]$ScoopRoot  = "$HOME\scoop",
   [switch]$SkipMissingTarget,
   [switch]$DryRun,
@@ -169,6 +170,7 @@ $AppData      = $env:APPDATA
 $LocalAppData = $env:LOCALAPPDATA
 
 $config     = $ConfigRoot
+$scripts     = $ScriptsRoot
 $scoop      = $ScoopRoot
 $persist    = Join-Path $scoop 'persist'
 
@@ -209,6 +211,9 @@ $links = @(
 
   # WSL
   @{ App='WSL'; Item='.wslconfig'; Link = Join-Path $UserHome '.wslconfig'; Target = Join-Path $config 'wsl\.wslconfig' }
+  
+  # AHK script on startup
+  @{ App='AHK'; Item='AHK script'; Link = Join-Path $AppData 'Microsoft\Windows\Start Menu\Programs\Startup\ctrl,h_backspace.ahk'; Target = Join-Path $scripts 'ahk\ctrl,h_backspace.ahk' }
 )
 
 # --- Run -------------------------------------------------------------------

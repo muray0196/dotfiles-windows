@@ -13,4 +13,8 @@ return {
   { "lewis6991/gitsigns.nvim", enabled = false },
   { "folke/todo-comments.nvim", enabled = false },
   { "mfussenegger/nvim-lint", enabled = false },
+  
+  { "saghen/blink.cmp", enabled = false},
+  { "rafamadriz/friendly-snippets", enabled = false},
+  { "folke/lazydev.nvim", enabled = false},
 }

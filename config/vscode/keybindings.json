@@ -25,4 +25,8 @@
         "command": "-vscode-neovim.send",
         "when": "editorTextFocus && neovim.ctrlKeysNormal.j && neovim.init && neovim.mode != 'insert' && editorLangId not in 'neovim.editorLangIdExclusions'"
     },
+    {
+        "key": "ctrl+i",
+        "command": "chatgpt.sidebarView.focus"
+    },
 ]

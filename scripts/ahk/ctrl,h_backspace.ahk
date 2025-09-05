@@ -2,6 +2,9 @@
 #SingleInstance Force
 SendMode "Input"
 
+^SC079::Send('{SC079}')
+^SC07B::Send('{SC07B}')
+
 excluded := ["hoge.exe", "hoge2.exe"]
 
 IsExcluded(){
