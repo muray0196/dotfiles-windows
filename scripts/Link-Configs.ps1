@@ -213,7 +213,7 @@ $links = @(
   @{ App='WSL'; Item='.wslconfig'; Link = Join-Path $UserHome '.wslconfig'; Target = Join-Path $config 'wsl\.wslconfig' }
   
   # AHK script on startup
-  @{ App='AHK'; Item='AHK script'; Link = Join-Path $AppData 'Microsoft\Windows\Start Menu\Programs\Startup\ctrl,h_backspace.ahk'; Target = Join-Path $scripts 'ahk\ctrl,h_backspace.ahk' }
+  @{ App='AHK'; Item='AHK script'; Link = Join-Path $AppData 'Microsoft\Windows\Start Menu\Programs\Startup\backspace.ahk'; Target = Join-Path $scripts 'ahk\backspace.ahk' }
 )
 
 # --- Run -------------------------------------------------------------------

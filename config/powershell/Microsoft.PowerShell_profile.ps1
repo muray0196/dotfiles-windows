@@ -6,11 +6,11 @@ function cleanup {
 	scoop cleanup * && scoop cache rm * && Remove-Item -Recurse -Force "$env:TEMP\WinGet" -ErrorAction SilentlyContinue && Remove-Item -Recurse -Force "$env:LOCALAPPDATA\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\DiagOutputDir\*" -ErrorAction SilentlyContinue
 }
 
-function audio-ls {
+function ls-audio {
     yt-dlp -F @Args | rg "audio only"
 }
 
-function audio-dl {
+function dl-audio {
     param(
         [Parameter(ValueFromRemainingArguments=$true)]
         $Args

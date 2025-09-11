@@ -2,10 +2,7 @@
 #SingleInstance Force
 SendMode "Input"
 
-^SC079::Send('{SC079}')
-^SC07B::Send('{SC07B}')
-
-excluded := ["hoge.exe", "hoge2.exe"]
+excluded := ["DJMAX RESPECT V.exe", "hoge2.exe"]
 
 IsExcluded(){
     global excluded
@@ -16,5 +13,7 @@ IsExcluded(){
 }
 
 #HotIf !IsExcluded()   ; 除外アプリはホットキー無効
+^SC079::Send('{SC079}')
+^SC07B::Send('{SC07B}')
 ^h::Send "{BS}"
 #HotIf

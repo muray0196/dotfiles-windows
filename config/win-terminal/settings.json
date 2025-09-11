@@ -31,6 +31,7 @@
     ],
     "alwaysShowTabs": true,
     "compatibility.allowHeadless": false,
+    "compatibility.enableUnfocusedAcrylic": true,
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
@@ -128,9 +129,9 @@
                 "commandline": "C:\\Users\\muray\\scoop\\apps\\neovim\\current\\bin\\nvim.exe",
                 "experimental.retroTerminalEffect": false,
                 "guid": "{0f3d6fb1-52ab-4486-b32d-da69692cdcb9}",
-                "hidden": true,
+                "hidden": false,
                 "icon": null,
-                "name": "neovim",
+                "name": "Neovim",
                 "scrollbarState": "hidden",
                 "tabTitle": "Neovim"
             }
@@ -191,5 +192,6 @@
     "theme": "system",
     "themes": [],
     "trimBlockSelection": true,
-    "trimPaste": true
+    "trimPaste": true,
+    "useAcrylicInTabRow": false
 }

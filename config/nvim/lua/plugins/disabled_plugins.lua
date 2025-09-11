@@ -17,4 +17,9 @@ return {
   { "saghen/blink.cmp", enabled = false},
   { "rafamadriz/friendly-snippets", enabled = false},
   { "folke/lazydev.nvim", enabled = false},
+
+  { "folke/snacks.nvim", opts = { dashboard = { enabled = false }, }, },
+
+  { "folke/which-key.nvim", enabled = false },
+  { "akinsho/bufferline.nvim", enabled = false },
 }

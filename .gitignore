@@ -5,6 +5,7 @@ foo_scrobble.dll.cfg
 
 # mpv
 persistent_config.json
+config/mpv/cache/
 
 # notepad++
 config/npp/userDefineLangs/
