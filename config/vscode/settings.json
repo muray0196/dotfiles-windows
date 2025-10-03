@@ -65,4 +65,7 @@
     "terminal.integrated.initialHint": false,
     "editor.inlayHints.enabled": "off",
     "accessibility.verbosity.emptyEditorHint": false,
+    "chat.commandCenter.enabled": false,
+    "files.eol": "\n",
+    "python.terminal.activateEnvInCurrentTerminal": true,
 }

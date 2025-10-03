@@ -1,7 +1,7 @@
 return {
   { "neovim/nvim-lspconfig", enabled = false },
-  { "williamboman/mason.nvim", enabled = false },
-  { "williamboman/mason-lspconfig.nvim", enabled = false },
+  { "mason-org/mason.nvim/mason.nvim", enabled = false },
+  { "mason-org/mason-lspconfig.nvim", enabled = false },
   { "folke/neodev.nvim", enabled = false },
 
   { "nvim-treesitter/nvim-treesitter", enabled = false },
