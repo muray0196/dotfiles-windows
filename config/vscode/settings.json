@@ -55,8 +55,6 @@
     "workbench.startupEditor": "none",
     "workbench.remoteIndicator.showExtensionRecommendations": false,
     "extensions.ignoreRecommendations": true,
-    "github.copilot.chat.agent.thinkingTool": true,
-    "github.copilot.chat.localeOverride": "ja",
     "workbench.activityBar.location": "top",
     "chatgpt.openOnStartup": true,
     "vscode-neovim.useWSL": true,
