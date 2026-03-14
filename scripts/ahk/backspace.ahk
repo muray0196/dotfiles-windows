@@ -2,7 +2,7 @@
 #SingleInstance Force
 SendMode "Input"
 
-excluded := ["DJMAX RESPECT V.exe", "hoge2.exe"]
+excluded := ["hoge2.exe"]
 
 IsExcluded(){
     global excluded
