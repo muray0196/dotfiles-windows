@@ -17,7 +17,7 @@ function dl-audio {
     )
 
     $params = @(
-        '-P', "$HOME\Downloads",
+        '-P', "E:\Downloads",
         '-f', 'bestaudio[acodec=opus]/bestaudio',
 		'--remux-video', 'webm>opus/mp4>m4a',
         '--downloader', 'aria2c',

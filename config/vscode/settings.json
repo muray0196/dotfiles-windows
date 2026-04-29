@@ -69,4 +69,6 @@
     "chat.mcp.gallery.enabled": true,
     "basedpyright.analysis.diagnosticMode": "workspace",
     "chatgpt.localeOverride": "en-US",
+    "chat.disableAIFeatures": true,
+    "workbench.colorTheme": "Dark Modern",
 }
