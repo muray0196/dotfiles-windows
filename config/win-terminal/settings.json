@@ -37,7 +37,7 @@
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "disableAnimations": true,
     "firstWindowPreference": "defaultProfile",
-    "initialCols": 120,
+    "initialCols": 140,
     "initialRows": 40,
     "keybindings": 
     [
@@ -73,13 +73,15 @@
             "backgroundImageOpacity": 0.25,
             "backgroundImageStretchMode": "uniform",
             "bellStyle": "none",
+            "colorScheme": "IBM 5153",
+            "cursorShape": "underscore",
             "font": 
             {
-                "face": "BIZUDev-NF",
+                "face": "JetBrains Mono NL",
                 "size": 17,
                 "weight": "medium"
             },
-            "opacity": 90,
+            "opacity": 100,
             "padding": "0",
             "useAcrylic": false
         },
@@ -87,23 +89,30 @@
         [
             {
                 "antialiasingMode": "cleartype",
-                "colorScheme": "Vintage",
+                "colorScheme": "CGA",
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "font": 
+                {
+                    "face": "BIZUDev-NF"
+                },
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
-                "name": "cmd"
+                "name": "cmd",
+                "opacity": 90
             },
             {
                 "antialiasingMode": "cleartype",
-                "colorScheme": "Campbell Powershell",
+                "colorScheme": "IBM 5153",
                 "commandline": "pwsh.exe -NoLogo",
                 "font": 
                 {
-                    "colorGlyphs": false
+                    "colorGlyphs": false,
+                    "face": "BIZUDev-NF"
                 },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "name": "PowerShell7",
+                "opacity": 90,
                 "source": "Windows.Terminal.PowershellCore"
             },
             {
@@ -131,10 +140,15 @@
             {
                 "commandline": "C:\\Users\\muray\\scoop\\apps\\neovim\\current\\bin\\nvim.exe",
                 "experimental.retroTerminalEffect": false,
+                "font": 
+                {
+                    "face": "BIZUDev-NF"
+                },
                 "guid": "{0f3d6fb1-52ab-4486-b32d-da69692cdcb9}",
                 "hidden": false,
                 "icon": null,
                 "name": "Neovim",
+                "opacity": 90,
                 "scrollbarState": "hidden",
                 "tabTitle": "Neovim"
             }

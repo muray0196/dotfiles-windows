@@ -71,4 +71,5 @@
     "chatgpt.localeOverride": "en-US",
     "chat.disableAIFeatures": true,
     "workbench.colorTheme": "Dark Modern",
+    "redhat.telemetry.enabled": false,
 }
