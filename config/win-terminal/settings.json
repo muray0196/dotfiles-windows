@@ -104,6 +104,7 @@
                 "antialiasingMode": "cleartype",
                 "colorScheme": "IBM 5153",
                 "commandline": "pwsh.exe -NoLogo",
+                "cursorShape": "bar",
                 "font": 
                 {
                     "colorGlyphs": false,
@@ -116,41 +117,22 @@
                 "source": "Windows.Terminal.PowershellCore"
             },
             {
-                "antialiasingMode": "cleartype",
-                "colorScheme": "Pengwin",
-                "font": 
-                {
-                    "face": "JetBrainsMonoNL Nerd Font",
-                    "size": 13
-                },
-                "guid": "{d8e96812-b789-5068-a5ae-10b2fb53e95f}",
-                "hidden": false,
-                "name": "Ubuntu 24.04.1 LTS",
-                "opacity": 90,
-                "padding": "0",
-                "scrollbarState": "hidden",
-                "source": "CanonicalGroupLimited.Ubuntu24.04LTS_79rhkp1fndgsc",
-                "suppressApplicationTitle": true
-            },
-            {
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": true,
                 "name": "Windows PowerShell"
             },
             {
-                "commandline": "C:\\Users\\muray\\scoop\\apps\\neovim\\current\\bin\\nvim.exe",
-                "experimental.retroTerminalEffect": false,
+                "colorScheme": "Pengwin",
+                "cursorShape": "bar",
                 "font": 
                 {
-                    "face": "BIZUDev-NF"
+                    "face": "Bizin Gothic NF"
                 },
-                "guid": "{0f3d6fb1-52ab-4486-b32d-da69692cdcb9}",
+                "guid": "{a2f5b2cc-fef6-5a31-96e9-8920863ce1f4}",
                 "hidden": false,
-                "icon": null,
-                "name": "Neovim",
+                "name": "Ubuntu-26.04",
                 "opacity": 90,
-                "scrollbarState": "hidden",
-                "tabTitle": "Neovim"
+                "source": "Microsoft.WSL"
             }
         ]
     },

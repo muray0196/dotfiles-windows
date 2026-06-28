@@ -1,6 +1,18 @@
 // Place your key bindings in this file to override the defaults
 [
     {
+        "key": "j",
+        "command": "vscode-neovim.send",
+        "when": "editorTextFocus && neovim.mode != insert",
+        "args": "gj"
+    },
+    {
+        "key": "k",
+        "command": "vscode-neovim.send",
+        "when": "editorTextFocus && neovim.mode != insert",
+        "args": "gk"
+    },
+    {
         "key": "ctrl+a",
         "command": "-vscode-neovim.send",
         "when": "editorTextFocus && neovim.ctrlKeysNormal.a && neovim.init && neovim.mode != 'insert' && editorLangId not in 'neovim.editorLangIdExclusions'"
@@ -27,6 +39,6 @@
     },
     {
         "key": "ctrl+i",
-        "command": "chatgpt.sidebarView.focus"
+        "command": "chatgpt.openSidebar"
     },
 ]
