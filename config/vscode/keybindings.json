@@ -41,4 +41,14 @@
         "key": "ctrl+i",
         "command": "chatgpt.openSidebar"
     },
+    {
+        "key": "ctrl+shift+m",
+        "command": "-workbench.actions.view.problems",
+        "when": "workbench.panel.markers.view.active"
+    },
+    {
+        "key": "ctrl+space",
+        "command": "noop",
+        "when": "terminalFocus"
+    }
 ]
