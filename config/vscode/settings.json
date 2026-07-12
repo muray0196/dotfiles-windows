@@ -1,6 +1,5 @@
 {
     "task.allowAutomaticTasks": "on",
-    "workbench.colorTheme": "Dark Modern",
     "workbench.startupEditor": "none",
     "workbench.activityBar.location": "top",
     "workbench.tips.enabled": false,
@@ -19,6 +18,8 @@
         "sideBar.background": "#000000",
         "terminal.background": "#07000e",
         "statusBar.background": "#000000",
+        "editorGutter.background": "#000000",
+        "panel.background": "#000000",
     },
     "editor.fontFamily": "\"JetBrains Mono NL Light\", \"UDEV Gothic 35JPDOC Regular\"",
     "editor.fontSize": 17,
@@ -73,5 +74,8 @@
     },
     "claudeCode.allowDangerouslySkipPermissions": true,
     "claudeCode.initialPermissionMode": "bypassPermissions",
-    "chatgpt.followUpQueueMode": "steer"
+    "chatgpt.followUpQueueMode": "steer",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 }
