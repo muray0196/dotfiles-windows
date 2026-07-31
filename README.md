@@ -1,3 +1,3 @@
-# dotfiles-windows
+# windows-config
 
-Windows用の個人用dotfiles
+Windows用の個人用設定
